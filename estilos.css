@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Open Sans';
+}
+
+body{
+    background: url(imagens/fundo.jpg);
+    margin: 0;
+}
+
+.cabecalho {
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B22D00;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding-right: 38px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 380;
+
+}
+
+.menu .numero{
+    font-size: 27px;
+}
+
+.menu2 {
+    display: flex;
+    margin: 0 auto;
+    background-color: #D9A300;
+    height: 40px;
+    list-style: none;
+    align-items: center;
+}
+
+.menu2 a {
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    
+}
+
+.menu2 li {
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.titulo01 {
+    width: 1440px;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.divisor {
+    width: 920px;
+    height: 0px;
+    border: 2px solid #000000;
+}
+
+.fotos {
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.text1 a {
+    height: 35px;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 125px;
+    font-size: 14px;
+    color: black;
+    list-style: none;
+}
+
+.text {
+    list-style: none;
+    padding-left: 10px;
+}
+
+
+.text a {
+    height: 35px;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 110px;
+    font-size: 14px;
+    color: black;
+}
+
+.titulo2 {
+    padding-left: 40px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.titulo03 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.lista1 {
+    list-style: none;
+    font-weight: 600;
+    height: 187px;
+}
+
+
+.colunas {
+    display: flex;
+    padding-left:5px;
+}
+
+.coluna-direita {
+    margin-left: 113px;
+    margin-top: -90px;
+
+}
+
+.foto04 {
+    display: flex;
+    font-size: 11px;
+}
+
+.text04 {
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.text05 {
+ color: #D93600;
+}
+
+.rodape {
+    background: #333333;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    font-size: 10px;
+    padding-left: 70px;
+    align-items: center;
+}
+
+.rodape h2{
+    font-weight: 600;
+}
+
+.site{
+    width: 1000px;
+    margin: 0 auto;
+background-color: white;
+}
